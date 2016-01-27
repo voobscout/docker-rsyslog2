@@ -15,3 +15,4 @@ RUN apt-get update -qq && \
     rm -rf /remote-syslog2_0.16_amd64.deb && \
     apt-get clean all && \
     rm /var/log/apt/* /var/log/alternatives.log /var/log/bootstrap.log /var/log/dpkg.log
+#
